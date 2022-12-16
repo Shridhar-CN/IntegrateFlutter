@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.android_id",
+    "module": "android_id_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_id_release-1.0.aar",
+          "url": "android_id_release-1.0.aar",
+          "size": 4832,
+          "sha512": "2cf8ce18ef36da1e8744d8a46c83ab44926235a6cfa6b574edcf6713430966c16eb234dfb83777da35e2641d4e3f893ff9d4f62d7b3fd233b3bca2887d0c58ef",
+          "sha256": "f5c094892e036ecc3dc68349b7e476fbfc347ef9c401a81fbd5d0fab03e20a4f",
+          "sha1": "921d389cdd7490628991e9dc21b668900c65844d",
+          "md5": "f7f401ab0b32fff80db2a6c1aaba9b51"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_id_release-1.0.aar",
+          "url": "android_id_release-1.0.aar",
+          "size": 4832,
+          "sha512": "2cf8ce18ef36da1e8744d8a46c83ab44926235a6cfa6b574edcf6713430966c16eb234dfb83777da35e2641d4e3f893ff9d4f62d7b3fd233b3bca2887d0c58ef",
+          "sha256": "f5c094892e036ecc3dc68349b7e476fbfc347ef9c401a81fbd5d0fab03e20a4f",
+          "sha1": "921d389cdd7490628991e9dc21b668900c65844d",
+          "md5": "f7f401ab0b32fff80db2a6c1aaba9b51"
+        }
+      ]
+    }
+  ]
+}
